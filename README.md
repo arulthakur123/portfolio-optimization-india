@@ -43,21 +43,36 @@ portfolio_optimization/
 └── README.md                   # You're here!
 ```
 ## 📊 Visualizations
-## Portfolio Allocation Chart
+## 📌 Portfolio Allocation
+
+Optimal allocation across the 50 NIFTY stocks using Modern Portfolio Theory:
 
 ![Portfolio Allocation](portfolio_allocation.png)
 
-### 1. Efficient Frontier with Max Sharpe Portfolio
-![Efficient Frontier](images/efficient_frontier.png)
+---
 
-### 2. Portfolio Composition (Weights)
-![Portfolio Weights](images/portfolio_composition.png)
+## 🧮 Efficient Frontier
 
-### 3. Risk Contribution per Asset
-![Risk Contribution](images/risk_contribution.png)
+Visualizes risk-return trade-offs across different asset combinations:
 
-### 4. Return Contribution per Asset
-![Return Contribution](images/return_contribution.png)
+![Efficient Frontier](efficient_frontier.png)
+
+---
+
+## 🎲 Monte Carlo Simulation
+
+Simulated 20,000 random portfolios to explore the return and volatility space:
+
+![Monte Carlo Simulation](monte_carlo_simulation.png)
+
+---
+
+## 🧩 Correlation Matrix
+
+Insight into which stocks are strongly correlated (or not) with others:
+
+![Correlation Heatmap](correlation_heatmap.png)
+
 
 ---
 
